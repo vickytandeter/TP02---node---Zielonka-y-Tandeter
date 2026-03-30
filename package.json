@@ -1,0 +1,13 @@
+{
+  "name": "tp02---dai",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Victoria Tandeter y Camila Zielonka",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
