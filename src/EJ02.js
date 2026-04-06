@@ -1,4 +1,4 @@
-import {PI, sumar} from './src/modules/matematica.js';
+import {PI, sumar} from './modules/matematica.js';
 
 let num1 = 10
 let num2 = 2

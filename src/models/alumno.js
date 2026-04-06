@@ -8,7 +8,7 @@ class Alumno {
         this.dni = dni
         this.edad = edad
     }
+    toString(){ return `Alumno: ${this.username} - DNI: ${this.dni} - Edad: ${this.edad}`}
 }
 
-function toString(){ return `Alumno: ${this.username} - DNI: ${this.dni} - Edad: ${this.edad}`}
-
+export {Alumno}

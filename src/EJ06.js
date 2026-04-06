@@ -8,7 +8,7 @@ url = 'http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo';
 
 objeto = parsearUrl(url);
 
-console.log(miObjeto);
+console.log(objeto);
 
 function parsearUrl(urlA){
     try {

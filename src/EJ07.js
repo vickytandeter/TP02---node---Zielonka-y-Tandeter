@@ -1,13 +1,15 @@
 import currencyMap from 'currency-map-country';
 
+console.log(currencyMap);
+
 let monedaDelPais, codigoPais;
 
 codigoPais = 'AR';
-monedaDelPais = obtenerMoneda(codigoPais);
+monedaDelPais = getCurrencyAbbreviation(codigoPais);
 console.log(`La moneda del país ${codigoPais} es: ${monedaDelPais}`);
 
-codigoPais = 'UZA';
-monedaDelPais = obtenerMoneda(codigoPais);
+codigoPais = 'US';
+monedaDelPais = getCurrencyAbbreviation(codigoPais);
 console.log(`La moneda del país ${codigoPais} es: ${monedaDelPais}`);
 
 function obtenerMoneda(codigoPais) {

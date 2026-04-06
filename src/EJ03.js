@@ -1,4 +1,4 @@
-import {toSTring} from './src/models/alumno.js';
+import {Alumno} from './models/alumno.js';
 
 let alumno1 = new Alumno("Florencia" , "22888444", 20);
 let alumno2 = new Alumno("Camila" , "54344324", 10);
