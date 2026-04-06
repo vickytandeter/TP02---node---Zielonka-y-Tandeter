@@ -1,4 +1,5 @@
 const PI = 3.14
+const numeros = ["dos", "cuatro", "ocho", "diez"]
 
 const sumar = (a, b) => a + b;
 
