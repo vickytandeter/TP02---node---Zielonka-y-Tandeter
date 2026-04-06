@@ -8,7 +8,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "EJ04": "src"
+    "EJ01": "node src/EJ01.js",
+    "EJ02": "node src/EJ02.js",
+    "EJ03": "node src/EJ03.js",
+    "EJ04": "node src/EJ04.js",
+    "EJ05": "node src/EJ05.js",
+    "EJ06": "node src/EJ06.js",
+    "EJ07": "node src/EJ07.js"
+  },
+  "dependencies": {
+    "currency-map-country": "^1.0.12"
   }
 }
